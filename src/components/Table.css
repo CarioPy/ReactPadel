@@ -1,0 +1,78 @@
+.table-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+}
+
+.main-table {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+.table-header {
+  background-color: #1a202c;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.table-header-cell {
+  color: white;
+  font-weight: 700;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  width: 30%;
+
+  font-family: "Syne Mono", monospace;
+}
+
+.table-body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.table-usual-row {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: solid black 1px;
+}
+
+.table-usual-cell {
+  font-family: "Syne Mono", monospace;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 30%;
+
+  border-right: black solid 1px;
+}
+
+.table-name-cell {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 30%;
+
+  text-align: left;
+  justify-content: left;
+  align-items: left;
+
+  border-right: black solid 1px;
+
+  font-family: "Syne Mono", monospace;
+}

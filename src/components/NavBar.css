@@ -1,0 +1,77 @@
+.main-header {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main-title {
+  color: white;
+  margin-left: 50px;
+  font-family: "Syne Mono", monospace;
+}
+.title-header-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  right: 100px;
+  margin: 10px;
+}
+
+.title-header {
+  color: white;
+  margin-right: 30px;
+  cursor: pointer;
+
+  font-family: "Syne Mono", monospace;
+}
+
+.title-header:active {
+  color: yellow;
+}
+.App-logo {
+  height: 50px;
+  pointer-events: none;
+  margin: 10px;
+  margin-left: 30px;
+}
+
+.band {
+  height: 5px;
+
+  background: linear-gradient(270deg, #ff0000, #ffe300);
+  background-size: 100% 100%;
+
+  animation: Shining 4s ease infinite;
+}
+
+@keyframes Shining {
+  0% {
+    background-position: 0% 49%;
+  }
+  50% {
+    background-position: 100% 52%;
+  }
+  100% {
+    background-position: 0% 49%;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 5s linear;
+  }
+  .band {
+    animation: band-spin infinite 5s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
